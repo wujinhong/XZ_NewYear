@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"        minHeight="44" minWidth="115" width="56" height="24">	<w:HostComponent name="egret.gui.Button" />	<e:states>		<e:State name="up" />	</e:states>
+	<e:UIAsset scale9Grid="13,14,17,9" source="TPQ__16" horizontalCenter="0"/>
+	<e:Label textAlign="center" verticalAlign="middle" bold="true" textColor="0xFFFFFF" size="14" verticalCenter="0" horizontalCenter="0" text="投票"/></e:Skin>

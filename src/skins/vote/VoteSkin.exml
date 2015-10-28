@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="480" height="800">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="shape"/>
+	<e:Button id="exitBtn" skinName="skins.button.Button2Skin" y="20" label="退出" icon="TH__11"/>
+	<e:Label text="投票区" y="24" width="161" textAlign="center" textColor="0x634118" horizontalCenter="0"/>
+	<e:Button id="joinBtn" label="我要参加" x="346" y="20" skinName="skins.button.JoinBtnSkin"/>
+	<e:Button id="leftBtn" y="90" skinName="skins.button.LeftBtnSkin" left="44" label="热门"/>
+	<e:Button id="rightBtn" y="90" skinName="skins.button.RightBtnSkin" right="44" label="新上线"/>
+	<e:Scroller id="scrollerDisplay" width="480" height="606" y="143">
+		<e:DataGroup id="dataGroup" width="480" height="606">
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="2" paddingLeft="10" horizontalGap="20"/>
+			</e:layout>
+		</e:DataGroup>
+	</e:Scroller>
+	<e:UIAsset id="downBg" y="760"/>
+	<e:UIAsset source="TPQ__45" scale9Grid="5,5,80,25" width="116" x="19" y="761"/>
+	<e:EditableText id="input" x="19" width="117" height="33" size="26" editable="true" maxChars="6" selectable="true" restrict="/^[0-9]/" multiline="false" textAlign="center" y="762"/>
+	<e:Button id="searchBtn" icon="SC__06" x="142" skinName="skins.button.SearchButtonSkin" label="ID查找" y="759"/>
+</e:Skin>

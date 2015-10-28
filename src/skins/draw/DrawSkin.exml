@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="bg0" width="480" height="516" y="107"/>
+	<e:UIAsset id="drag" width="480" height="516" y="107"/>
+	<e:Group>
+		<e:UIAsset id="bg"/>
+		<e:UIAsset id="bg2" width="480" height="177" x="0" y="623"/>
+		<e:Button id="exitBtn" skinName="skins.button.Button2Skin" x="0" y="20" label="退出" icon="TH__11"/>
+		<e:Button id="againBtn" skinName="skins.button.Button2Skin" x="121.5" y="20" label="重来" icon="TH__05"/>
+		<e:Button id="saveBtn" skinName="skins.button.Button2Skin" x="243.5" y="20" label="保存" icon="TH__08"/>
+		<e:Button id="uploadBtn" skinName="skins.button.Button2Skin" x="365" y="20" label="上传" icon="TH__03"/>
+		<e:UIAsset id="pen0" y="668" source="TH_qianbi_12"/>
+		<e:UIAsset id="pen1" source="TH_qianbi_05" x="53.5" y="668"/>
+		<e:UIAsset id="pen2" source="TH_qianbi_07" x="106.5" y="668"/>
+		<e:UIAsset id="pen3" source="TH_qianbi_09" x="160.5" y="668"/>
+		<e:UIAsset id="pen4" x="213.5" y="668" source="TH_qianbi_03"/>
+		<e:UIAsset id="pen5" source="TH_qianbi_20" x="266.5" y="668"/>
+		<e:UIAsset id="pen6" source="TH_qianbi_22" x="320.5" y="668"/>
+		<e:UIAsset id="pen7" source="TH_qianbi_24" x="373.5" y="668"/>
+		<e:UIAsset id="pen8" source="TH_qianbi_27" x="427" y="668"/>
+		<e:UIAsset id="shape" y="760"/>
+		<e:UIAsset id="choosen" y="760"/>
+	</e:Group>
+	<e:UIAsset id="coverBg"/>
+	<e:UIAsset id="uploadUI" scale9Grid="5,5,80,26" y="110" x="10"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"        minHeight="44" minWidth="115">	<w:HostComponent name="egret.gui.Button" />	<e:states>		<e:State name="up" />	</e:states>
+	<e:UIAsset source="anniu_03" scale9Grid="13,14,17,9" width="114" height="53" horizontalCenter="0"/>
+	<e:UIAsset scale9Grid="13,14,17,9" x="10" source="TPQ__13" horizontalCenter="0" y="4"/>
+	<e:Label id="labelDisplay" width="69" textAlign="center" bold="true" textColor="0x634118" text="我要参加" size="15" verticalAlign="bottom" horizontalCenter="0.5" y="32"/></e:Skin>

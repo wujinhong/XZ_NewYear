@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="youxibeijing"/>
+	<e:UIAsset source="shouyetubiao_02"/>
+	<e:Button id="startBtn" skinName="skins.button.Button1Skin" label="开始游戏" x="129" y="532"/>
+	<e:Button id="voteBtn" skinName="skins.button.Button1Skin" label="作品投票" x="129" y="596"/>
+	<e:Button id="ruleBtn" label="规则与奖品" skinName="skins.button.Button1Skin" x="129" y="660"/>
+	<e:Label id="labelDisplay" textColor="0x634118" bold="true" textAlign="center" verticalAlign="middle" x="10" y="775" horizontalCenter="121" size="16" text="庆祝特区成立35周年·特别活动"/>
+</e:Skin>

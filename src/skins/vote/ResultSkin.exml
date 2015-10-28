@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="480" height="800">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="shape"/>
+	<e:Button id="exitBtn" skinName="skins.button.Button2Skin" y="20" label="退出" icon="TH__11"/>
+	<e:Label textColor="0x634118" text="投票区" textAlign="center" width="161" x="10" horizontalCenter="0" y="24"/>
+	<e:Label id="resultLabel" size="24" width="465" y="231" horizontalCenter="0.5" textAlign="center" text="查无结果，请确认您是否输入了正确ID" textColor="0x634118"/>
+	<e:UIAsset id="resultItem" width="220" height="322" horizontalCenter="0" y="120"/>
+</e:Skin>

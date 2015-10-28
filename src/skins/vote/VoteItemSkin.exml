@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="220">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="bg"/>
+	<e:UIAsset id="img" width="200" height="200" x="10" y="10"/>
+	<e:Button id="voteBtn" label="按钮" skinName="skins.button.VoteButtonSkin" y="188" x="156"/>
+	<e:Label id="IDlabel" textColor="0x000000" textAlign="left" size="24" width="200" y="220" text="I D:1440" x="5"/>
+	<e:Label id="hotLabel" textColor="0x000000" textAlign="left" size="24" width="200" text="热度:657877" y="244" x="5"/>
+	<e:Label id="authorLabel" textColor="0x000000" textAlign="left" size="24" width="200" text="作者:李白" y="268" x="5"/>
+</e:Skin>

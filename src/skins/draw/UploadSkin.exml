@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="460" height="560">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="uploadGroup" width="460" height="510">
+		<e:UIAsset id="uploadBg" x="0" y="0"/>
+		<e:Label textColor="0x000000" text="上传作品" textAlign="center" x="10" y="10" horizontalCenter="0"/>
+		<e:Label textColor="0x000000" text="请输入您的名字" textAlign="left" size="24" width="324" x="22" y="47"/>
+		<e:UIAsset width="416" source="TPQ__45" scale9Grid="5,5,80,26" y="79" x="22"/>
+		<e:EditableText id="inputName" multiline="false" size="26" selectable="true" width="400" editable="true" height="33" y="79" textAlign="left" x="31" maxChars="5"/>
+		<e:Label id="warnName" textColor="0xFF0000" textAlign="right" size="20" width="345" verticalAlign="bottom" x="92" y="117" text="需要为2个以上字符"/>
+		<e:Label textColor="0x000000" textAlign="left" size="24" width="324" text="请输入您的手机号码" x="22" y="136"/>
+		<e:UIAsset scale9Grid="5,5,80,26" width="416" source="TPQ__45" y="165" x="22"/>
+		<e:EditableText id="inputPhoneNum" maxChars="15" size="26" selectable="true" width="400" height="33" restrict="/^[0-9]/" editable="true" multiline="false" y="165" textAlign="left" x="31"/>
+		<e:Label id="warnPhoneNum" textColor="0xFF0000" textAlign="right" size="20" width="345" text="请输入正确的手机格式" verticalAlign="bottom" x="92" y="203"/>
+		<e:Label textColor="0x000000" textAlign="left" size="24" width="324" text="请输入您的地址" x="22" y="222"/>
+		<e:UIAsset scale9Grid="5,5,80,26" width="416" source="TPQ__45" height="70" y="251" x="22"/>
+		<e:EditableText id="inputAddress" height="70" maxChars="60" size="26" editable="true" multiline="true" restrict="/^[0-9]/" width="400" selectable="true" y="251" textAlign="left" x="31"/>
+		<e:Label id="warnAddress" textColor="0xFF0000" textAlign="right" size="20" width="345" text="地址不能为空" verticalAlign="bottom" x="92" y="323"/>
+		<e:Label textColor="0xAFAEAE" width="417" text="请您确保提交的信息准确无误，以便收到我们寄出去的奖品，并能随时联系到您" lineSpacing="0" x="22" verticalAlign="middle" size="16" y="446"/>
+		<e:Button id="commitBtn" skinName="skins.button.EnterButtonSkin" label="提交" icon="SC__03" x="52" y="496"/>
+		<e:Button id="cancelBtn" skinName="skins.button.EnterButtonSkin" label="取消" icon="SC__06" x="264" y="496"/>
+		<e:Label textColor="0x000000" textAlign="left" size="24" width="324" x="22" y="339" text="活动寄语"/>
+		<e:UIAsset scale9Grid="5,5,80,26" source="TPQ__45" height="70" width="416" x="22" y="368"/>
+		<e:EditableText id="inputBless" maxChars="60" size="26" editable="true" height="70" restrict="/^[0-9]/" width="400" multiline="true" selectable="true" textAlign="left" x="31" y="368"/>
+	</e:Group>
+	<e:Group height="200" id="resultGroup" width="460" horizontalCenter="0" verticalCenter="0" locked="true" visible="false">
+		<e:UIAsset id="resultGroupBg"/>
+		<e:Label textColor="0x000000" text="上传作品" textAlign="center" x="20" horizontalCenter="0" top="10"/>
+		<e:Label textColor="0x000000" textAlign="left" size="24" width="215" x="20" y="52" text="您的作品ID为"/>
+		<e:Label id="IDLabel" textColor="0xFF0000" width="196" size="24" textAlign="left" x="171" y="52" text="114"/>
+		<e:Label height="55" textColor="0xAFAEAE" lineSpacing="0" size="20" verticalAlign="middle" width="420" x="20" y="86" text="立即分享微信，有机会获得我们寄出去的礼物一份"/>
+		<e:Button id="shareBtn" skinName="skins.button.EnterButtonSkin" icon="SC__03" label="微信分享" left="70" y="140"/>
+		<e:Button id="continueBtn" icon="SC__06" skinName="skins.button.EnterButtonSkin" label="继续游戏" right="70" y="140"/>
+	</e:Group>
+	<e:Group id="uploading" width="460" height="124" verticalCenter="0" visible="false">
+		<e:UIAsset id="uploadingBg"/>
+		<e:Label textColor="0x000000" text="上传作品" textAlign="center" x="20" horizontalCenter="0" top="10"/>
+		<e:UIAsset id="processBg" width="440" height="20" x="10" y="60"/>
+		<e:UIAsset id="bar" height="20" width="440" x="10" y="60"/>
+		<e:Label id="processLabel" size="20" verticalAlign="bottom" width="173" y="80" textAlign="center" horizontalCenter="0" textColor="0xFE950E" text="50%"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+{"file":"game.png","frames":{
+"SC__03":{"x":1,"y":99,"w":143,"h":56,"offX":0,"offY":2,"sourceW":143,"sourceH":60},
+"SC__06":{"x":1,"y":157,"w":143,"h":56,"offX":0,"offY":0,"sourceW":143,"sourceH":60},
+"SC__jiantou_03":{"x":146,"y":99,"w":66,"h":63,"offX":2,"offY":0,"sourceW":71,"sourceH":63},
+"TPQ__03":{"x":1,"y":1,"w":195,"h":47,"offX":1,"offY":1,"sourceW":196,"sourceH":49},
+"TPQ__04":{"x":1,"y":50,"w":194,"h":47,"offX":0,"offY":1,"sourceW":196,"sourceH":49},
+"TPQ__16":{"x":198,"y":1,"w":53,"h":21,"offX":1,"offY":1,"sourceW":56,"sourceH":24},
+"TPQ__22":{"x":197,"y":50,"w":49,"h":34,"offX":2,"offY":3,"sourceW":57,"sourceH":40},
+"TPQ__45":{"x":146,"y":164,"w":90,"h":35,"offX":0,"offY":0,"sourceW":90,"sourceH":35},
+"TPQ__13":{"x":214,"y":86,"w":26,"h":26,"offX":1,"offY":1,"sourceW":28,"sourceH":28}}}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"        minHeight="44" minWidth="115">	<w:HostComponent name="egret.gui.Button" />	<e:states>		<e:State name="up" />	</e:states>
+	<e:UIAsset source="anniu_03" width="82" height="57" horizontalCenter="0" scale9Grid="14,15,15,8"/>
+	<e:UIAsset id="iconDisplay" scale9Grid="13,14,17,9" x="10" source="TH__03" horizontalCenter="0.5" y="8"/>
+	<e:Label id="labelDisplay" width="69" textAlign="center" verticalAlign="middle" bold="true" textColor="0x634118" text="退出" size="15" horizontalCenter="0.5" y="34"/></e:Skin>

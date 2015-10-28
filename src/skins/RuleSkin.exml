@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="480" height="800">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="shape" locked="true"/>
+	<e:Button id="exitBtn" skinName="skins.button.Button2Skin" y="20" label="退出" icon="TH__11" locked="true"/>
+	<e:Label textColor="0x634118" textAlign="center" width="161" x="10" horizontalCenter="0" y="24" text="规则与奖品" locked="true"/>
+	<e:Scroller id="scrollerDisplay" width="480" height="710" y="90">
+		<e:Group id="group">
+			<e:Label size="24" width="465" horizontalCenter="0.5" textAlign="center" textColor="0x634118" text="作品介绍"/>
+			<e:UIAsset source="GZ_png" horizontalCenter="0.5" y="40"/>
+			<e:Label textColor="0x634118" textAlign="center" size="24" width="465" x="5" y="472" text="活动说明"/>
+			<e:Label textColor="0x000000" size="24" width="440" y="506" textAlign="center" horizontalCenter="0" text="转眼，深圳经济特区迎来了35岁生日。35年风云激荡的城市历史画卷中，交叠着你我的人生轨迹。我们在这里笑过、哭过、追梦、创造、坚持、成长……			\n红树林、深圳湾大桥、簕杜鹃、市民中心……这是插画家笔下充满希望的深圳，也是无数人眼中情感交织的深圳。我们和这座城市风雨同行。希望这幅集结了许许多多深圳元素的图画，汇聚成深圳的“翅膀”，把鹏城带向更高更远的未来。也希望每个人都用自己的画笔和自己的方式为这座城市“添彩”。
+			\n\n让你的色彩和深圳一起飞起来。
+			\n\n投票方式及规则：
+			\n1、在游戏页面，网友用“彩色画笔”为心目中的深圳“添彩”，完成作品后，保存并上传，提交姓名、手机及地址等信息，便于中奖后我们联系您。您的作品会出现在投票区，如果您的作品获得超高人气，就有机会获得主办方提供的大奖哦！			\n2、投票活动阶段，每个微信用户每天最多可以为同一幅作品投票1次。若存在恶意刷票行为，将取消活动资格。			\n活动时间：8月26日——9月4日（自活动上线后开展10天）"/>
+			<e:Label textColor="0x634118" textAlign="center" size="24" width="465" x="10" y="730" horizontalCenter="0" text="奖品一栏"/>
+			<e:Label textColor="0x000000" textAlign="center" size="24" width="440" horizontalCenter="0" x="10" y="1556" text="奖项设置"/>
+			<e:UIAsset width="220" height="322" source="GZ_1_png" horizontalCenter="-110.5" y="1590"/>
+			<e:UIAsset height="322" width="220" source="GZ_1_png" x="10" y="988" horizontalCenter="120.5"/>
+			<e:UIAsset height="322" width="220" source="GZ_1_png" x="10" y="1328" horizontalCenter="-109.5"/>
+			<e:UIAsset source="GZ_1_png" width="220" height="322" x="20" y="1328" horizontalCenter="120.5"/>
+			<e:Label textColor="0x000000" textAlign="center" size="24" width="198" x="10" y="1264" text="第一名" horizontalCenter="-116.5"/>
+			<e:Label textColor="0x000000" text="第一名" textAlign="center" size="24" width="198" x="20" y="1264" horizontalCenter="114.5"/>
+			<e:Label textColor="0x000000" text="第一名" textAlign="center" size="24" width="198" x="20" y="1604" horizontalCenter="-115.5"/>
+			<e:Label textColor="0x000000" text="第一名" textAlign="center" size="24" width="198" x="30" y="1604" horizontalCenter="114.5"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

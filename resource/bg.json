@@ -1,0 +1,5 @@
+{"file":"bg.png","frames":{
+"anniu_03":{"x":551,"y":533,"w":43,"h":36,"offX":0,"offY":1,"sourceW":44,"sourceH":38},
+"shouyetubiao_02":{"x":480,"y":0,"w":454,"h":533,"offX":11,"offY":11,"sourceW":479,"sourceH":555},
+"youxibeijing":{"x":0,"y":0,"w":480,"h":800,"offX":0,"offY":0,"sourceW":480,"sourceH":800},
+"loading":{"x":480,"y":533,"w":71,"h":71,"offX":0,"offY":0,"sourceW":71,"sourceH":71}}}
